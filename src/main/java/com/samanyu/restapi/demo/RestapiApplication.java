@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class RestapiApplication {
 
     @RequestMapping("/")
-    String home()
-    {
-        return "Hello World!";
-    }
+//    String home()
+//    {
+//        return "Hello World!";
+//    }
 
     public static void main(String[] args) {
         SpringApplication.run(RestapiApplication.class, args);

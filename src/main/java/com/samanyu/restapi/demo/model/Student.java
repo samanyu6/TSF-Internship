@@ -25,7 +25,7 @@ public class Student implements Serializable {
     //@Id Used for pk definition
     @javax.persistence.Id
     //Used to show how primary key is generated (autoincrement here)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long Id;
 
     @NotBlank
